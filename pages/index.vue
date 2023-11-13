@@ -1,6 +1,6 @@
 <template>
-    <p>Fix me</p>
-    <div class="fixed top-16 w-56 text-right">
+  <p>Fix me</p>
+  <div class="fixed top-16 w-56 max-[230px]:w-full text-right">
     <Menu as="div" class="relative inline-block text-left">
       <div>
         <MenuButton
@@ -19,7 +19,7 @@
         leave-to-class="transform scale-95 opacity-0"
       >
         <MenuItems
-          class="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none"
+          class="absolute right-0 mt-2 w-56 max-[230px]:w-[100vw] origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none"
         >
           <div class="px-1 py-1">
             <MenuItem v-slot="{ active }">
@@ -85,5 +85,5 @@
 </template>
 
 <script setup>
-import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
+import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
 </script>
