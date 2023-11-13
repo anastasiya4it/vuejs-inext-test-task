@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed top-16 w-56 max-[230px]:w-full text-center">
+  <div class="fixed top-[50vh] w-56 max-[230px]:w-full text-center">
     <UDropdown
       :items="items"
       :ui="{
